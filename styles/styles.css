@@ -13,10 +13,33 @@ body {
   
 }
 
+.purple-text{
+    color:#581845;
+}
+
+
+.purple-background{
+    background-color:#581845;
+}
+
+.purple-border{
+    border-color:#581845;
+
+}
+
+
+
+
+
+
+
+
 .navi{
     padding-top: 1%;
  
 }
+
+
 
 .strap{
     height:auto;
@@ -141,7 +164,6 @@ li a{
 .button_black{
         width: auto;
         height:15px;   
-        background-color: black; 
         border: none;
         color: white;
         display: flex;
@@ -190,7 +212,7 @@ li a{
     color:white;
     font-size:5px;
     height:15px;   
-    background-color: black;    
+    
 
 }
 
@@ -342,7 +364,6 @@ i.fas {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border: black;
     border-style: solid;
     border-width: thin;
 }
@@ -433,7 +454,6 @@ justify-content:space-between;
 }
 .submit{
     width:100%;
-    background-color: black;
     color: white;
 }
 
