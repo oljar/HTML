@@ -10,6 +10,7 @@ body {
     font-family: 'lato',sans-serif ;
     font-size: 16px;
     margin:0;
+
   
 }
 
@@ -29,17 +30,16 @@ body {
 
 
 
-
-
-
-
-
 .navi{
     padding-top: 1%;
  
 }
 
-
+.section-one-theme h4{ 
+    font-size: 20px;
+   
+    font-family: 'Neonderthaw', cursive;
+}
 
 .strap{
     height:auto;
@@ -155,9 +155,10 @@ li a{
     margin-right:60%;
     
     width:auto;
-    font-size: 6px;
+    font-size: 8px;
     line-height: 2em;
     height:auto;
+    font-family: 'Indie Flower', cursive;
 }
 
 
@@ -233,6 +234,7 @@ li a{
 .section-two-text-fat{
     font-size:5px;
     font-weight: bold;
+   
 }
 .section-two-text-small{
     font-size:5px;
