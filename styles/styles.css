@@ -1,0 +1,787 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    padding:0;
+    margin:0;
+
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #373737;
+    margin:0;   
+}
+
+
+.container{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.text-bold{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1050px){
+    .container{
+    width: 90%;
+
+    }
+}
+
+
+h1,h2,h3{
+    font-family: 'Playfair Display', serif;
+}
+
+
+h1{
+    font-size:80px;
+    font-weight: 900;
+    margin:0;
+}
+
+
+h2{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h3{
+    font-size:30px;
+    font-weight: 700;
+}
+
+.purple-text{
+    color:#581845;
+}
+
+
+.purple-background{
+    background-color:#581845;
+}
+
+.purple-border{
+    border-color:#581845;
+
+}
+
+.blue{
+    background-color:#222634;
+}
+
+
+
+  
+.section-one{
+   
+    background-image:url(/images/reindeer.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100vh;
+  
+
+        
+}
+
+@media screen and (max-width: 1050px){
+    .section-one{
+       background-position-x: -100px ;
+    }
+
+}
+
+
+
+.header-section-one{
+    
+    display: flex;
+    justify-content: center;
+    color: aqua;
+}
+
+
+.navi{
+    padding-top: 5px;
+    display: flex;
+    width:70%;
+    margin-left: 15%;
+    
+ 
+}
+
+@media screen and (max-width: 1050px){
+    .navi{
+        width:90%;
+        margin:auto;
+    }
+    }
+
+ul{
+margin-right: 0;
+margin-top: 35px;
+margin-bottom: 5%;
+width:auto;
+display: flex;
+align-content: space-between;
+gap:90px;
+list-style-type:none;
+padding-left: 0;
+padding-right: 0;
+
+
+}
+
+@media screen and (max-width: 1050px){
+    ul{
+        margin-right: 0;
+        display:flex;
+        flex-direction:column;
+        list-style-type:none;
+        gap:30px;
+       
+    }
+}
+
+li a{
+
+    text-decoration: none;
+   
+  
+}
+
+
+@media screen and (max-width: 1050px){
+    li a{
+        font-weight:700;
+        font-size:25px;
+    }
+}
+
+
+.section-one-theme{
+   
+
+    margin-left:15%;
+    width:500px;
+    margin-right:auto;
+  
+    
+  
+}
+
+
+@media screen and (max-width: 1050px){
+    .section-one-theme{
+        width: 90%; 
+        margin:0 auto;
+        text-align: left;
+
+    }
+}
+
+.section-one-description{
+  
+    margin: 150px auto 150px 15%;
+    width:500px;
+    line-height: 2em;
+
+}
+
+@media screen and (max-width: 1050px){
+    .section-one-description{
+        width: 90%; 
+        margin:80px auto;
+        
+
+    }
+}
+
+
+
+@media screen and (max-width: 1050px){
+    .section-one-description p{
+        max-width:500px;
+    }
+}
+
+.button_black{
+        width: 500px;
+        border: none;
+        color: white;
+        font-size: 16px;
+        margin:120px auto 0 15%;
+        padding:15px 15px;
+        display:block;       
+        text-align: center;
+    }
+
+
+@media screen and (max-width: 1050px){
+        .button_black{
+            width: 90%;
+            margin-top:100px;
+            margin-left:auto;
+            margin-bottom:auto;
+            margin-right: auto;
+        }
+}
+
+
+.section-one-and-half{
+
+    display:inline-block;
+    width: 100%;
+    padding:0 10%;
+    
+
+}
+
+.black-strap-part1-section-one-and-half{
+
+
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 50px;
+   
+}
+
+.black-strap-part2-section-one-and-half{
+
+ 
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+   
+    
+}
+
+
+.black-strap-line-section-one-and-half{
+    border-top: 0px none white;
+    border-left:0px none white;
+    border-right:0px none white;
+    width: 30px;
+    height: 1px;
+   
+}
+
+
+.black-strap-part3-section-one-and-half{
+
+   
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    margin-bottom: 40px;
+
+    
+}
+
+
+
+
+.section-two{
+
+    margin-top: 50px;
+    
+}
+
+
+.h-center{
+    display: flex;
+    justify-content: center;    
+
+}
+
+@media screen and (max-width: 1050px){
+    .h-center{
+        display: flex;
+        flex-direction:column; 
+        align-items: center;
+        width:auto
+        
+
+    }
+}
+
+
+
+
+.section-two-text{
+ 
+    width:50%;
+    margin:10px;
+}
+
+@media screen and (max-width: 1050px){
+    .section-two-text{
+        width:90%;
+       
+
+    }
+}
+
+
+.section-two-img{
+ 
+    width:50%;
+    margin:10px;
+    min-height: 100px;
+ 
+}   
+   
+@media screen and (max-width: 1050px){
+    .section-two-img{
+        width: 90%;
+    }
+
+    
+}
+
+.section-two-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    color:white;
+    font-size:15px;
+    height:40px;   
+    border:0;
+    margin-top: 70px;
+}
+
+
+
+@media screen and (max-width: 1050px){
+    .section-two-button{
+        margin-top: 20px;
+        margin-bottom:20px;
+    }
+
+    
+}
+
+.img{
+      
+    width:100%;
+    margin: 0 1px 0 1px;
+    height: 100%;
+   
+  
+}
+
+.section-two-text-title{
+    margin-bottom: 70px;
+
+}
+
+@media screen and (max-width: 1050px){
+    .section-two-text-title{
+        text-align: center;
+    }
+
+}
+.section-two-text-fat{
+    
+    font-weight: bold;
+    margin-bottom: 20px;
+   
+}
+.section-two-text-small{
+
+    margin-bottom: 110px;
+
+}
+
+
+i.fas {
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 40px;
+}
+
+.section-three-adventures{
+
+    width:50%;
+    margin: 70px auto 70px auto;
+
+}
+
+
+@media screen and (max-width: 1050px){
+    .section-three-adventures{
+      
+        width:90%;
+    
+    }
+    
+}
+
+.section-three-title{
+    text-align: center;
+    
+    
+}
+
+
+.section-three-text{
+    margin: 0 18% 0 18%;
+    font-size:16px;
+}
+
+.section-three{    
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    width:100%;
+    margin: 5px auto 20px auto;
+    color: white;
+    
+}
+
+
+
+
+@media screen and (max-width: 1050px){
+    .section-three{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+
+    } 
+        
+
+    
+}
+
+
+.secion_three_img{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    
+}
+
+@media screen and (max-width: 1050px){
+    .secion_three_img{
+    width:100%;
+    padding: 30pxs;
+    }
+}
+
+.img01{
+    background-image:url(/images/aurora.jpeg);
+    
+}
+
+
+.img02{
+    background-image:url(/images/lapland-3.webp);
+ 
+
+}
+
+.img03{
+   
+    background-image:url(/images/dogsled.jpg);
+
+  
+}
+.img04{
+    background-image:url(/images/reindeer-2.jpg);
+  
+}
+
+
+
+section-three-text{
+    font-size: 18px;
+}
+
+.section-three div h3{
+    font-size: 30px;
+
+}
+
+
+.section_three_button{
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    font-size: 18px;
+    padding :1% 3% 1% 3%
+    
+}
+
+
+
+
+.section-four {
+     margin: 100px auto 50px auto;
+   
+  
+
+}
+.section-four-title {
+    text-align: center;
+}
+
+.section-four-main{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+@media screen and (max-width: 1050px){
+    .section-four-main{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+.section-four-column{
+    width:40%;
+    margin:30px 30px 15px 30x;
+    padding:0 10px 0 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+
+
+}
+
+
+
+.section-four-column-text{
+    text-align: center;
+}
+
+
+.section-four-column-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: thin;
+    object-fit: cover;
+
+}
+
+
+.section-four-column-h{
+    margin-top: 8px;
+    margin-bottom: 2px;
+
+
+}
+    
+    
+    
+    
+
+
+.section-five{
+    padding:40px auto 40px auto;
+    width:100%;    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 350px;
+    color:white;
+    position:relative;
+
+    
+    
+    
+}
+
+.section-five-main{
+    
+    width:40%;
+    padding-top:100px;
+    
+}
+
+
+.section-five-quote{
+    position: absolute;
+    top:60px;
+    left:24%;
+    color:white;
+    font-size:50px;
+}
+
+
+@media screen and (max-width:1050px){
+    .section-five-main{
+        width:90%;
+       
+    }
+}
+
+@media screen and (max-width:1050px){
+    .section-five-quote{
+       display: none;
+    }
+}
+
+
+
+
+
+
+
+.section-five-sign{
+    
+    width:40%;
+    text-align: right;
+    color:white;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+
+@media screen and (max-width:1050px){
+    .section-five-sign{
+        width:90%;
+    }
+}
+
+
+.section-six{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:5% auto 0  auto;
+}
+
+
+@media screen and (max-width: 1050px){
+    .section-six{
+
+
+        display:flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    
+}
+
+
+.section-six-part{
+    width:50%;
+    margin:0 auto 0 auto;
+    padding: 0 20px;
+}
+
+
+
+@media screen and (max-width: 1050px){
+    .section-six-part{
+        width:90%;
+        padding: 0;
+    }
+}
+    
+
+
+.section-six-form{
+display:flex;
+flex-direction: column;
+justify-content:space-between;
+gap:50px;
+
+}
+
+
+.submit{
+    width:100%;
+    color: white;
+    height: 50px;
+    
+}
+
+input{
+    width:100%;
+    height: 40px;
+    margin:10px 0 10px 0;
+
+    
+}
+textarea{
+    width:100%;
+    height: 120px;
+    margin:10px 0 0 0;
+
+}
+
+.submit{
+    border:none;
+    margin-top:30px;
+    height:50px;
+    font-size: 20px;
+    margin-bottom: 0px;
+
+}
+
+.h-space{
+
+    display:flex;
+    justify-content: space-between;
+    align-content: right;
+    margin-top:80px;
+    color:white;
+
+}
+
+
+.footer-left{
+    margin:3% 0 3% 1%;  
+    width:auto;
+    
+}
+
+.footer-right{
+    display:flex;
+    flex-direction: row;
+    width:340px;
+    margin:auto 0 3% 0;
+   
+
+}
+
+
+
+@media screen and (max-width: 1050px){
+    .footer-right{
+    display:flex;
+    flex-wrap:wrap;
+    font-size: 18px;
+    width:auto;
+    }
+}
+
+
+.footer-right div{
+    padding:0 5% 0 5%;
+}
